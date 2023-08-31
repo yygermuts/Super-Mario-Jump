@@ -31,39 +31,5 @@ const loop = setInterval(() => {
 
 document.addEventListener('touch', jump);
 
-var dataId;
-var contador = 0;
-var x;
-var i;
- 
-function carregarErros() {
-    localStorage.erros = Number(erros);
-}
- 
-document.addEventListener("dragstart", function (event) {
-    event.dataTransfer.setData("text", event.target.id);
-    dataId = event.dataTransfer.getData("text");
-});
- 
-document.addEventListener("dragover", function (event) {
-    event.preventDefault();
-    event.dataTransfer.dropEffect = "move";
-});
- 
-document.addEventListener("drop", function (event) {
-    event.preventDefault();
-    if (contador === 0 && event.target.id === dataId) {
-        event.target.parentNode.appendChild(document.getElementById(dataId));
-        event.target.style.display = "none";
-        document.getElementById('proximo').style.display = "inline";
-    } else if (event.target.id === dataId) {
-        event.target.parentNode.appendChild(document.getElementById(dataId));
-        event.target.style.display = "none";
-        contador++;
- 
-    } else {
-        erros++;
-    }
-});
 
 
