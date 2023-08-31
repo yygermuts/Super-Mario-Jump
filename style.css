@@ -21,7 +21,7 @@
     position: absolute;
     bottom: 0px;
     width: 70px;
-    animation: pipe-anim 2.5s infinite linear;
+    animation: shell-anim 2.5s infinite linear;
     
 }
 
@@ -44,7 +44,7 @@
 
 
 
-@keyframes pipe-anim {
+@keyframes shell-anim {
     from{
         right: -80px;
     }
