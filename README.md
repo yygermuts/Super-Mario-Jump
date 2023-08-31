@@ -1,2 +1,7 @@
-<h1>super-mario-jump</h1>
-<p>Project carried out using construction in html, css styling and interaction with javascript. Hope you like it!</p>
+<div>
+ <img src="mario.gif" class="super-mario">
+ <img src="Rainbowshell.webp" class="casco-inimigo" width=100px>
+</div>
+  <h3>Project carried out using construction in HTML, CSS styling and interaction with Javascript. Hope you like it!</h3>
+
+
