@@ -27,12 +27,6 @@ const loop = setInterval(() => {
     }
 }, 10);
 
-let html = document.querySelector("html");
-        let musica = document.querySelector("#musica");
-        html.addEventListener('keydown', () => {
-            musica.play();
-
-        })
 
 
 document.addEventListener('keydown', jump);
