@@ -42,10 +42,6 @@
     animation: mario-jump 500ms ease-out;
 }
 
-#musica{
-    display:none
-}
-
 
 
 @keyframes pipe-anim {
